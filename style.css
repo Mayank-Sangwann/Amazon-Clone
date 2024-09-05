@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.border{
+  border: 2px solid black;
+}
+.border:hover{
+  border: 2px solid white;
+}
+
+/* box1 */
+.logo{
+  height: 50px;
+  width: 100px;
+}
+.l{
+  background-image: url(https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/a9/af/27a4ef844ac38129d0fa460675fb/amazon-logo.svg);
+  height: 50px;
+  width: 100%;
+  background-size:contain;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+/* box2 */
+.icon{
+  display: flex;
+}
+.addL1{
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 14px;
+}
+.addL2{
+  font-size: 0.95rem;
+  margin-left: 3px;
+}
+
+/* box3 */
+.search{
+  display: flex;
+  height: 30px;
+  width: 55%;
+}
+.select{
+  width: 45px;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 8%;
+  border-bottom-left-radius: 8%;
+  background-color: #e6e6e6;
+}
+.searchtab{
+  width: 100%;
+  border: none;
+}
+.magicon{
+  width: 45px;
+  background-color: #febd68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #0f1111;
+  border-top-right-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+
+/* box4 */
+.lang{
+  display: flex;
+  align-items:center;
+}
+.langicon{
+  font-size: 25px;
+}
+.selectlang{
+  width: 45px;
+}
+
+/* box5 */
+.signup{
+}
+.signupL1{
+  font-size: 13px;
+}
+.signupL2{
+  font-size: 15px;
+}
+.cart{
+  display: flex;
+}
+.carticon{
+  font-size: 30px;
+}
+.carttext{
+  margin-top:15px;
+  margin-left:1px;
+}
