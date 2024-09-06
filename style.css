@@ -3,17 +3,22 @@
   font-family: Arial, Helvetica, sans-serif;
   border: border-box;
 }
+a{
+  text-decoration: none;
+}
+
+/* navbar */
 .navbar{
   height: 60px;
   background-color: #0f1111;
   color: white;
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content:space-evenly;
 }
-
 .border{
-  border: 2px solid black;
+  border: 2px solid transparent;
+  height: 46px;
 }
 .border:hover{
   border: 2px solid white;
@@ -21,37 +26,35 @@
 
 /* box1 */
 .logo{
+  background-image: url(amazon_logo.png);
   height: 50px;
   width: 100px;
-}
-.l{
-  background-image: url(https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/a9/af/27a4ef844ac38129d0fa460675fb/amazon-logo.svg);
-  height: 50px;
-  width: 100%;
-  background-size:contain;
-  background-position: center; 
-  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 /* box2 */
-.icon{
+.locationicon{
   display: flex;
 }
-.addL1{
+.addline1{
   color: #cccccc;
   font-size: 0.85rem;
   margin-left: 14px;
+  margin-top: 8px;
 }
-.addL2{
+.addline2{
   font-size: 0.95rem;
   margin-left: 3px;
 }
 
 /* box3 */
-.search{
+.searchbar{
   display: flex;
-  height: 30px;
+  height: 40px;
   width: 55%;
+}
+.searchbar:hover{
+  border: 2px solid orange;
 }
 .select{
   width: 45px;
@@ -61,7 +64,7 @@
   border-bottom-left-radius: 8%;
   background-color: #e6e6e6;
 }
-.searchtab{
+.search{
   width: 100%;
   border: none;
 }
@@ -82,9 +85,6 @@
   display: flex;
   align-items:center;
 }
-.langicon{
-  font-size: 25px;
-}
 .selectlang{
   width: 45px;
 }
@@ -94,17 +94,182 @@
 }
 .signupL1{
   font-size: 13px;
+  margin-top: 8px;
 }
 .signupL2{
   font-size: 15px;
+  font-weight: 700;
 }
+
+/* box5 */
 .cart{
   display: flex;
+  align-items: center;
 }
 .carticon{
   font-size: 30px;
 }
 .carttext{
+  font-weight: 700;
   margin-top:15px;
   margin-left:1px;
+}
+
+/* panel */
+.border2{
+  border: 2px solid transparent;
+  height: 35px;
+}
+.border2:hover{
+  border: 2px solid white;
+}
+.panel{
+  height: 39px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* box1 */
+.p1st{
+  display: flex;
+  align-items: center;
+}
+.p1l1{
+  font-size: 20px;
+}
+.p1l2{
+  font-size: 14px;
+  margin-top: 2px;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+/* box2 */
+.pncn{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.space{
+  width: 50%;
+}
+.p7th{
+  font-weight: 700;
+}
+
+/* content */
+.content{
+  background-image: url(hero_image.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.cl1{
+  background-color: white;
+  color: black;
+  height: 35px;
+  font-size: 0.9rem;
+  width: 95%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.cl1 a{
+  color: #007185;
+}
+.cl1 p{
+  padding-top: 9px;
+}
+
+/* box content */
+.mainarea{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.boxes{
+  width: 22%;
+  height: 350px;
+  background-color: white;
+  margin-top: 1rem;
+}
+.box2{
+  margin-bottom: 1rem;
+}
+.boxes h2{
+  margin-bottom: 0.4rem;
+  font-size: 1.4rem;
+}
+.boxes p{
+  margin-top: 0.7rem;
+  color: #007185;
+}
+.boxcontent{
+  margin: 1.2rem;
+}
+.boximg{
+  height: 250px;
+  background-size: cover;
+}
+
+/* footer */
+footer{
+}
+.footpanel1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #37475a;
+  font-size: 0.85rem;
+  color: white;
+}
+.footpanel2{
+  display: flex;
+  height: 320px;
+  justify-content: space-evenly;
+  background-color: #222f3d;
+  color: white;
+  padding-top: 3.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.footpanel2 ul p{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footpanel2 ul a{
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
+
+.footpanel3{
+  border-top: 2px solid #37475a;
+  height: 68px;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footpanel4{
+  height: 100px;
+  background-color: #0f1111;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.privacies{
+  padding-top: 1.9rem;
+}
+.copywrite{
+  padding-top: 0.2rem;
 }
