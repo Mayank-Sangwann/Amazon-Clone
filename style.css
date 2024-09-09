@@ -9,7 +9,7 @@ a{
 
 /* navbar */
 .navbar{
-  height: 600px;
+  height: 60px;
   background-color: #0f1111;
   color: white;
   display: flex;
@@ -125,7 +125,7 @@ a{
 }
 .panel{
   height: 39px;
-  background-color: #000000;
+  background-color: #222f3d;
   color: white;
   display: flex;
   align-items: center;
