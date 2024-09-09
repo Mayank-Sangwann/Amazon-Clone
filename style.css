@@ -26,7 +26,7 @@ a{
 
 /* box1 */
 .logo{
-  background-image: url(../photos/amazon_logo.png);
+  background-image: url(/photos/amazon_logo.png);
   height: 50px;
   width: 100px;
   background-size:cover;
